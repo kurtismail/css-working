@@ -1,0 +1,62 @@
+/* *********!display ( görüntü özellikleri) Kullanımı.******** */
+
+/* ?display Özelliği: Bir öğenin nasıl görüntüleneceğini belirler. */
+
+a{
+    background-color: rgb(216, 9, 26);
+    text-decoration: none;
+    padding: 30px;
+    border-radius: 10px;
+    color: rgb(250, 246, 246);
+    font-size: 30px;
+}
+
+a{
+    /* display: none; */
+    /* display: block; */
+    /* !a'ları blok eleman yapar. a inline bir elemen olduğu için değere inline yazdığımızda değişiklik olmaz.*/
+    /* display: inline; */
+    /*? inline'e çevirdiğimizde genişlik yükseklik veremeyiz.  */
+    /* width: 200px;
+    height: 10px; */
+
+
+    
+}
+#a1{
+    /* display: none; */
+    /* visibility: hidden; */
+    /* ? visibility hidden ile öğe yine de eskisi gibi aynı alanı kaplayacaktır. sadece öğe gizlenecek, silüeti yerinde duracaktır.: */
+    /* display: inline-block; */
+    /* !genişlik yükseklik vermek istiyorsak  inline-block değerini kullanmalıyız. */
+    /* width: 120px;
+    height: 50px; */
+    /* display: block; */
+}
+
+/* span{
+    background-color: orange;
+    margin: 50px;
+    padding: 20px;
+    display: block;
+    width: 100px;
+    height: 100px;
+} */
+
+/* .box{
+    width: 100px;
+    height: 100px;
+    background-color: darkorchid;
+    border: 2px solid red;
+    margin-top: 5px;
+    display:inline;
+    display: block;
+    blok elemanı inline'e çevirdiğimizde content'i kadar yer kaplar.
+} */
+#box2{
+    /* background-color: cyan; */
+    /* display: none; */
+    /* visibility: hidden; */
+    
+}
+
